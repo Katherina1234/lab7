@@ -1,0 +1,18 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+
+@inject IViewLocalizer Localizer
+
+<h1 style="text-align:center">@Localizer["Header"]</h1>
+<h3>- @Localizer["Ingredients"]</h3>
+<h4>- @Localizer["Ingridient1"]</h4>
+<h4>- @Localizer["Ingridient2"]</h4>
+<h4>- @Localizer["Ingridient3"]</h4>
+<h4>- @Localizer["Ingridient4"]</h4>
+<h4>- @Localizer["Ingridient5"]</h4>
+<h4>- @Localizer["Ingridient6"]</h4>
+<br/>
+<h3>+ @Localizer["Step1"]</h3>
+<h3>+ @Localizer["Step2"]</h3>
+<h3>+ @Localizer["Step3"]</h3>
+<br/>
+<img src="~/images/1.jpg" asp-append-version="true">
